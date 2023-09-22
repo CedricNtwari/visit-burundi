@@ -37,6 +37,7 @@ This project is hosted hosting platform on GitHub.
 ## Content
 
 - I used this website (<https://favicon.io/>) to generate the browser tab icon, for learning purposes.
+- I used Google Fonts (<https://fonts.google.com/?query=la>) to get Lazio fonts to style this website
 
 ## Key topics covered here
 
