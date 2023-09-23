@@ -38,7 +38,12 @@ body {
 
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: var(--custom-nav-bg-color);
+    color: var(--custom-header-white-color);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
 
 h1 {
