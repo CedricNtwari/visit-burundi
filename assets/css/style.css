@@ -9,6 +9,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 
+/* General Hex code for color / used root for a global scopr */
+:root {
+    /* Used for: Main brand identity and key elements like headings and links. */
+    --primary-color: #1a2c56;
+
+    /* Used for: Complementary color to the primary color,
+    often for buttons and accents. */
+    --secondary-color: #93794f;
+
+    /* Used for: Default text color for paragraphs and body content. */
+    --text-color: #0f324e;
+
+    --custom-nav-bg-color: #000;
+    --custom-header-white-color: #f6f6f6;
+}
+
+
 /* General Styles */
 body {
     min-height: 100vh;
@@ -16,12 +33,16 @@ body {
     flex-direction: column;
     font-family: 'Lato', sans-serif;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: var(--text-color);
 }
 
 /* Header */
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    font-weight: 400;
 }
 
 /* Main Content */

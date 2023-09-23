@@ -39,6 +39,16 @@ This project is hosted hosting platform on GitHub.
 - I used this website (<https://favicon.io/>) to generate the browser tab icon, for learning purposes.
 - I used Google Fonts (<https://fonts.google.com/?query=la>) to get Lazio fonts to style this website
 
+## Main Colors Used
+
+- primary-color: #1a2c56
+  - Used for: Main brand identity and key elements like headings and links.
+- secondary-color: #93794f
+  - Used for: Complementary color to the primary color,
+    often for buttons and accents
+- text-color: #0f324e
+  - Used for: Default text color for paragraphs and body content
+
 ## Key topics covered here
 
 - **Building a website**
