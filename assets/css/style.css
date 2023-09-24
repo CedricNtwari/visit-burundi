@@ -40,10 +40,13 @@ body {
 header {
     background-color: var(--custom-nav-bg-color);
     color: var(--custom-header-white-color);
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -77,8 +80,6 @@ header h1:hover,
     border-bottom: 1px solid var(--secondary-color);
 }
 
-/* Style the mobile navigation bar drop-down menu toggle */
-
 nav {
     position: absolute;
     background-color: var(--custom-nav-bg-color);
@@ -86,6 +87,33 @@ nav {
     left: 0;
     padding: 0 1rem;
     display: none;
+    top: 100%;
+    min-height: 200px;
+}
+
+/* Style the mobile navigation bar drop-down menu toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 32px;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    border-radius: 2.5rem;
+    height: 3rem;
+    line-height: 1.25;
+    padding: 1rem 1.5rem;
+}
+
+#navigation li:last-child {
+    padding: 3.5rem 0;
 }
 
 /* Main Content */
@@ -93,6 +121,9 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+
+    /* Fixing website header at the top makes the main content push up. Creating space at the top so the main content doesn't get covered */
+    margin-top: 53px;
 }
 
 /* Footer */
