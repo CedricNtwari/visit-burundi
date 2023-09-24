@@ -77,6 +77,17 @@ header h1:hover,
     border-bottom: 1px solid var(--secondary-color);
 }
 
+/* Style the mobile navigation bar drop-down menu toggle */
+
+nav {
+    position: absolute;
+    background-color: var(--custom-nav-bg-color);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+}
+
 /* Main Content */
 main {
     background-color: lightblue;
