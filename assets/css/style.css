@@ -46,8 +46,30 @@ header {
     width: 100%;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--custom-header-white-color);
+}
+
+h1:hover {
+    color: var(--secondary-color);
+}
+
+#navigation {
+    font-size: 18px;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+#navigation li {
+    padding: 0.5rem 0;
 }
 
 /* Main Content */
