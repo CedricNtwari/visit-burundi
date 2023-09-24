@@ -51,14 +51,15 @@ header a {
     color: inherit;
 }
 
-h1 {
+header h1 {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--custom-header-white-color);
 }
 
-h1:hover {
+header h1:hover,
+#navigation li:hover {
     color: var(--secondary-color);
 }
 
@@ -70,6 +71,10 @@ h1:hover {
 
 #navigation li {
     padding: 0.5rem 0;
+}
+
+.active {
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 /* Main Content */
