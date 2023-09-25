@@ -160,16 +160,6 @@ footer {
         padding: 0 0 0 2rem;
     }
 
-    header h1:hover,
-    #navigation li:hover {
-        color: var(--secondary-color);
-    }
-
-    .btn:hover {
-        color: var(--custom-header-white-color);
-        background-color: #93794fbf;
-    }
-
     .nav-toggle-label {
         display: none;
     }
@@ -180,7 +170,21 @@ footer {
 
 
 /* Media query: laptop and larger (992px and up) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    /* Header */
+    header h1:hover,
+    #navigation li:hover {
+        color: var(--secondary-color);
+    }
+
+    .btn:hover {
+        color: var(--custom-header-white-color);
+        background-color: #93794fbf;
+    }
+
+    /* Main Content */
+}
 
 /* Media query: desktop and larger (1200px and up) */
 @media screen and (min-width: 1200px) {}
