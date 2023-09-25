@@ -61,11 +61,6 @@ header h1 {
     color: var(--custom-header-white-color);
 }
 
-header h1:hover,
-#navigation li:hover {
-    color: var(--secondary-color);
-}
-
 #navigation {
     font-size: 18px;
     letter-spacing: 3px;
@@ -88,7 +83,7 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-    min-height: 200px;
+    height: 250px;
 }
 
 /* Style the mobile navigation bar drop-down menu toggle */
@@ -110,6 +105,7 @@ nav {
     height: 3rem;
     line-height: 1.25;
     padding: 1rem 1.5rem;
+    white-space: nowrap;
 }
 
 #navigation li:last-child {
@@ -130,3 +126,64 @@ main {
 footer {
     background-color: orange;
 }
+
+/* Media query: large and landscape phones (576px and up) */
+@media screen and (min-width: 576px) {}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    header {
+        padding: 2rem;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding: 0;
+        height: 40px;
+    }
+
+    #navigation {
+        display: flex;
+        align-items: baseline;
+    }
+
+    #navigation li {
+        padding-left: 2rem;
+    }
+
+    #navigation li:last-child {
+        padding: 0 0 0 2rem;
+    }
+
+    header h1:hover,
+    #navigation li:hover {
+        color: var(--secondary-color);
+    }
+
+    .btn:hover {
+        color: var(--custom-header-white-color);
+        background-color: #93794fbf;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Main Content */
+
+}
+
+
+/* Media query: laptop and larger (992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Media query: desktop and larger (1200px and up) */
+@media screen and (min-width: 1200px) {}
+
+/* Media query: larger (1400px and up) */
+@media screen and (min-width: 1400px) {}
