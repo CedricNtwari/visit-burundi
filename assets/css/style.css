@@ -37,6 +37,15 @@ body {
     color: var(--text-color);
 }
 
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--custom-header-white-color);
+}
+
 /* Header */
 header {
     background-color: var(--custom-nav-footer-bg-color);
@@ -54,13 +63,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-header h1 {
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--custom-header-white-color);
 }
 
 #navigation {
@@ -129,6 +131,16 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/drummers-image.webp") no-repeat center center/cover;
+}
+
+#cover-text {
+    background-color: var(--custom-btn-hover-color);
+    font-size: 21px;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 150px;
+    padding: 1.5rem;
 }
 
 
@@ -222,6 +234,12 @@ footer p {
     /* Hero banner Section */
     #hero-banner {
         height: 100vh;
+        background: url(../images/drummers-image.webp) no-repeat top center/cover
+    }
+
+    #cover-text {
+        width: 450px;
+        right: 50px;
     }
 
 }
