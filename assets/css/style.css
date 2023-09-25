@@ -41,13 +41,14 @@ body {
 header {
     background-color: var(--custom-nav-footer-bg-color);
     color: var(--custom-header-white-color);
-    padding: 0.5rem 1rem;
+    padding: 1.5rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    height: 80px;
 }
 
 header a {
@@ -120,9 +121,18 @@ main {
     flex: 1 0 auto;
 
     /* Fixing website header at the top makes the main content push up. Creating space at the top so the main content doesn't get covered */
-    margin-top: 53px;
+    margin-top: 80px;
 }
 
+/* Hero-banner Section */
+#hero-banner {
+    height: 600px;
+    width: 100%;
+    background: url("../images/drummers-image.webp") no-repeat center center/cover;
+}
+
+
+/* About Section */
 /* Footer */
 
 footer {
@@ -174,6 +184,8 @@ footer p {
     /* Header */
     header {
         padding: 2rem;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, .8) 80%, #000 90%);
+        height: 0;
     }
 
     nav {
@@ -182,6 +194,7 @@ footer p {
         width: fit-content;
         padding: 0;
         height: 40px;
+        background: none;
     }
 
     #navigation {
@@ -202,6 +215,14 @@ footer p {
     }
 
     /* Main Content */
+    main {
+        margin-top: 0;
+    }
+
+    /* Hero banner Section */
+    #hero-banner {
+        height: 100vh;
+    }
 
 }
 
