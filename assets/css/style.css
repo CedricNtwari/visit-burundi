@@ -439,15 +439,15 @@ article{
         padding: 0 1rem;
     }
 
-    /* Signup page */
+    /* Discover page */
 
     #signup {
         background-position: center;
         position: relative;
+        min-height: 700px;
     }
 
     #signup-form {
-        max-width: 400px;
         position: absolute;
         top: 150px;
         left: 10%;
