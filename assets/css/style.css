@@ -330,8 +330,27 @@ article{
     margin-top: 20px;
 }
 
+/* Discover Page */
+
+#photos img {
+    width: 100%;
+    /* If img broken, alt can be readable */
+    line-height: 1rem;
+}
+
+#photos {
+    /* remove small space between images */
+    line-height: 0;
+}
+
 /* Media query: large and landscape phones (576px and up) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+    /* Discover Page */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -442,6 +461,11 @@ article{
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
+    }
+
+     /* Gallery Page */
+    #photos {
+        column-count: 3;
     }
 
 }
