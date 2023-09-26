@@ -149,7 +149,7 @@ main {
     background-color: var(--custom-btn-hover-color);
     font-size: 21px;
     position: absolute;
-    bottom: 30px;
+    top: 50%;
     width: 80%;
     min-height: 150px;
     padding: 1.5rem;
@@ -275,7 +275,6 @@ footer p {
     /* Header */
     header {
         padding: 2rem;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, .8) 80%, #000 90%);
         height: 0;
     }
 
@@ -319,6 +318,7 @@ footer p {
     #cover-text {
         width: 450px;
         right: 50px;
+        top: 70%;
     }
 
     /* About Section */
