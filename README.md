@@ -38,6 +38,7 @@ This project is hosted hosting platform on GitHub.
 
 - I used this website (<https://favicon.io/>) to generate the browser tab icon, for learning purposes.
 - I used Google Fonts (<https://fonts.google.com/?query=la>) to get Lazio fonts to style this website
+- Image sourced from <https://gisgeography.com/> for educational purposes. Usage allowed by the website's terms of use <https://gisgeography.com/how-to-cite/> <https://gisgeography.com/burundi-map/>
 
 ## Main Colors Used
 
