@@ -165,6 +165,7 @@ main {
 #burundi-image {
     height: 90vw;
     width: 90vw;
+    /*  Image sourced from https: //gisgeography.com/ for educational purposes. Usage allowed by the website's terms of use. */
     background: url("../images/burundi-map.jpg") no-repeat top center/cover;
     /* Make sure image will not go under 300px */
     max-height: 400px;
