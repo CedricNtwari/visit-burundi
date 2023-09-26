@@ -174,7 +174,6 @@ main {
     background: url("../images/burundi-map.jpg") no-repeat top center/cover;
     /* Make sure image will not go under 300px */
     max-height: 400px;
-    max-width: 400px;
     background-size: contain;
 }
 
@@ -296,11 +295,17 @@ footer p {
     #burundi {
         flex-direction: row;
         align-items: center;
+        padding-top: 2rem;
     }
 
     #burundi-image,
     #burundi-nature {
         flex: 1;
+    }
+
+    #burundi-image {
+        position:relative;
+        left: 10%;
     }
 
 }
