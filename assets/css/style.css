@@ -48,6 +48,12 @@ h3 {
     color: var(--custom-header-white-color);
 }
 
+p{
+    line-height: 28px;
+    /* Optionally, indent the first line */
+    text-indent: 1em;
+}
+
 .hide {
     display: none;
 }
@@ -178,16 +184,44 @@ main {
 }
 
 #burundi-nature p {
-    line-height: 28px;
+    
     color: var(--custom-paragraph-color);
     padding: 1rem;
-    /* Optionally, indent the first line */
-    text-indent: 1em;
+    
 }
 
 /* Facts Section */
 #facts {
     background-color: var(--text-color);
+    color: var(--custom-header-white-color);
+}
+
+#facts-infos{
+    text-align: center;
+    padding: 2rem 2rem;
+    
+}
+#facts-infos > div {
+     border-bottom: 1px dashed var(--custom-header-white-color);
+     padding: 2rem 0;
+}
+
+#facts-infos i {
+    font-size: xxx-large;
+}
+
+#where-we-are div, #getting-here div, #weather div {
+    padding-bottom: 1rem;
+}
+
+#where-we-are h3, #getting-here h3, #weather h3 {
+    padding-bottom: 1rem;
+}
+
+
+
+#weather a{
+    color: var(--custom-header-white-color);
 }
 
 /* Footer */
@@ -306,6 +340,20 @@ footer p {
     #burundi-image {
         position:relative;
         left: 10%;
+    }
+    #burundi-nature {
+        margin-right: 10%;
+    }
+
+    /* Facts section */
+    #facts-infos {
+        display: flex;
+    }
+
+    #facts-infos > div {
+        border-right: 1px dashed var(--custom-header-white-color);
+        border-bottom: none;
+        padding-right: 1rem;
     }
 
 }
