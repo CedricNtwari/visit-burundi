@@ -58,7 +58,74 @@
     </header>
 
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+        <form
+          id="signup-form"
+          method="Post"
+          action=""
+        >
+          <h2>Let's get you in Burundi!</h2>
+          <label for="fisrtname">First Name </label>
+          <input
+            type="text"
+            name="fisrtname"
+            id="fisrtname"
+            class="text-input"
+            required
+          ><br>
+          <label for="lastname">Last Name </label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            class="text-input"
+            required
+          ><br>
+          <label for="email"> Email Address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            class="text-input"
+          ><br>
+          <div class="radio-buttons">
+            <div>
+              <label for="safari">Safari </label>
+              <input
+                type="radio"
+                name="running_preference"
+                id="safari"
+                value="safari"
+                required
+              >
+            </div>
+            <div>
+              <label for="boat">Boat </label>
+              <input
+                type="radio"
+                name="running_preference"
+                id="boat"
+                value="boat"
+                required
+              >
+            </div>
+            <div>
+              <label for="hunt">Hunt </label>
+              <input
+                type="radio"
+                name="running_preference"
+                id="hunt"
+                value="hunt"
+                required
+              >
+            </div>
+          </div>
+          <input type="submit" value="Send booking request" class="join-button" >
+        </form>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>

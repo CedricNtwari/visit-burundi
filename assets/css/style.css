@@ -135,6 +135,10 @@ main {
 
     /* Fixing website header at the top makes the main content push up. Creating space at the top so the main content doesn't get covered */
     margin-top: 80px;
+
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero-banner Section */
@@ -280,6 +284,51 @@ article{
     color: var(--custom-paragraph-color);
 }
 
+/* Book now Page */
+#signup {
+    background: url("../images/nature.jpeg");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+
+#signup h2 {
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+#signup-form {
+    margin: 20px 10%;
+    color: #dddbdb;
+    padding: 30px;
+    background-color: rgba(60, 60, 60, 0.5);
+    height: 80vh;
+}
+
+.text-input {
+    background: transparent;
+    border: 1px solid #dddbdb;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    border-radius: 10px;
+    background-color: var(--custom-btn-hover-color);
+    color: #fafafa;
+    font-size: 100%;
+    padding: 15px 32px;
+    margin-top: 20px;
+}
 
 /* Media query: large and landscape phones (576px and up) */
 @media screen and (min-width: 576px) {}
@@ -328,7 +377,7 @@ article{
 
     /* Hero banner Section */
     #hero-banner {
-        background: url(../images/drummers-image.webp) no-repeat top center/cover
+        background: url(../images/drummers-image.webp) no-repeat top center/cover;
     }
 
     #cover-text {
@@ -371,6 +420,30 @@ article{
         padding: 0 1rem;
     }
 
+    /* Signup page */
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        height: 55vh;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
 }
 
 
@@ -406,4 +479,9 @@ article{
 @media screen and (min-width: 1200px) {}
 
 /* Media query: larger (1400px and up) */
-@media screen and (min-width: 1400px) {}
+@media screen and (min-width: 1400px) {
+     /* Signup Page */
+    #signup-form {
+        height: 50vh;
+    }
+}
