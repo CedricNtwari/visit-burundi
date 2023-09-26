@@ -25,6 +25,7 @@
     --custom-header-white-color: #f6f6f6;
     --custom-btn-hover-color: #93794fbf;
     --custom-footer-p: #888888;
+    --custom-main-about-bg: #ffffff;
 }
 
 /* General Styles */
@@ -145,6 +146,40 @@ main {
 
 
 /* About Section */
+#about {
+    padding: 1rem;
+    background-color: var(--custom-main-about-bg);
+}
+
+#about h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#burundi {
+    display: flex;
+    flex-direction: column;
+}
+
+#burundi-image {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/burundi-map.jpg") no-repeat top center/cover;
+    /* Make sure image will not go under 300px */
+    max-height: 400px;
+    max-width: 400px;
+    background-size: contain;
+}
+
+#burundi-nature p {
+    line-height: 28px;
+    color: var(--text-color);
+    padding: 1rem;
+    /* Optionally, indent the first line */
+    text-indent: 1em;
+}
+
 /* Footer */
 
 footer {
@@ -240,6 +275,21 @@ footer p {
     #cover-text {
         width: 450px;
         right: 50px;
+    }
+
+    /* About Section */
+    #about {
+        padding: 2rem;
+    }
+
+    #burundi {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #burundi-image,
+    #burundi-nature {
+        flex: 1;
     }
 
 }
