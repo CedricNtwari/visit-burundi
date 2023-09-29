@@ -443,15 +443,6 @@ article {
         flex: 1;
     }
 
-    #burundi-image {
-        position: relative;
-        left: 10%;
-    }
-
-    #burundi-nature {
-        margin-right: 10%;
-    }
-
     /* Facts section */
     #facts-infos {
         display: flex;
@@ -526,7 +517,18 @@ article {
 }
 
 /* Media query: desktop and larger (1200px and up) */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+    /* About Section */
+    #burundi-image {
+        position: relative;
+        left: 10%;
+    }
+
+    #burundi-nature {
+        margin-right: 10%;
+    }
+}
 
 /* Media query: larger (1400px and up) */
 @media screen and (min-width: 1400px) {
