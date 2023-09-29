@@ -50,7 +50,7 @@ h3 {
 
 p {
     line-height: 28px;
-    /* Optionally, indent the first line */
+    /* indent the first line */
     text-indent: 1em;
 }
 
@@ -292,6 +292,19 @@ article {
     overflow: auto;
 }
 
+/* Discover Page */
+
+#photos img {
+    width: 100%;
+    /* If img broken, alt can be readable */
+    line-height: 1rem;
+}
+
+#photos {
+    /* remove small space between images */
+    line-height: 0;
+}
+
 /* Book now Page */
 
 #hero-banner-book {
@@ -397,21 +410,9 @@ article {
 
 .text-message textarea::placeholder {
     color: var(--custom-paragraph-color);
+    padding: 1rem;
 }
 
-
-/* Discover Page */
-
-#photos img {
-    width: 100%;
-    /* If img broken, alt can be readable */
-    line-height: 1rem;
-}
-
-#photos {
-    /* remove small space between images */
-    line-height: 0;
-}
 
 /* Media query: large and landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -426,6 +427,7 @@ article {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    /* Home page */
     /* Header */
     header {
         padding: 2rem;
@@ -508,25 +510,6 @@ article {
     }
 
     /* Discover page */
-
-    #signup {
-        background-position: center;
-        position: relative;
-        min-height: 700px;
-    }
-
-    #signup-form {
-        position: absolute;
-        top: 150px;
-        left: 10%;
-        height: 55vh;
-    }
-
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
-    /* Gallery Page */
     #photos {
         column-count: 3;
     }
@@ -535,6 +518,11 @@ article {
 
     #hero-banner-book {
         background: url("../images/bujumbura-pinned-on-a-map-of-afr.webp") no-repeat center/cover;
+    }
+
+    #booknow {
+
+        padding: 2rem 30%;
     }
 
     /* Book now Page form section */
@@ -551,6 +539,7 @@ article {
 /* Media query: laptop and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
+    /* Home page */
     /* Header */
     header h1:hover,
     #navigation li:hover {
@@ -576,6 +565,7 @@ article {
 /* Media query: desktop and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
 
+    /* Home page */
     /* About Section */
     #burundi-image {
         position: relative;
@@ -588,10 +578,4 @@ article {
 }
 
 /* Media query: larger (1400px and up) */
-@media screen and (min-width: 1400px) {
-
-    /* Signup Page */
-    #signup-form {
-        height: 50vh;
-    }
-}
+@media screen and (min-width: 1400px) {}
