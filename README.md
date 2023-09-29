@@ -1,8 +1,17 @@
-# Visit Burundi - Readme Summary
+# Visit Burundi
 
 Visit Burundi is a captivating platform that showcases the region's renowned natural beauty, featuring stunning national parks and nature reserves that beckon tourists to explore its breathtaking landscapes.
 
-Built only with HTML & CSS.
+## Built with a Mobile-First Approach
+
+Visit Burundi has been designed with a mobile-first approach in mind. This means that the project is initially optimized for mobile devices, ensuring a seamless and engaging experience for visitors on smartphones and tablets. As the project evolves, it will be progressively enhanced to cater to larger screens while retaining its core mobile-friendly design.
+
+## Technologies Used
+
+- HTML
+- CSS
+
+Feel free to contribute and make this project even better!
 
 ## Features
 
