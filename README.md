@@ -11,8 +11,6 @@ Visit Burundi has been designed with a mobile-first approach in mind. This means
 - HTML
 - CSS
 
-Feel free to contribute and make this project even better!
-
 ## Features
 
 - **Navigation Bar** : ...
@@ -71,6 +69,20 @@ This project is hosted hosting platform on GitHub.
 - **Directory Structure**
 - **Navigation**
 - **Accessibility**
+
+### Suggested Improvements
+
+#### 1. Phone Input Validation
+
+**Issue**: Currently, on the Book Now page, the phone input field lacks validation for user phone numbers. Adding a pattern validation can enhance user experience and ensure that users provide valid phone numbers.
+
+**Suggested Solution**: Implement JavaScript to validate the phone number input field against a pattern (e.g., a specific phone number format).
+
+#### 2. Textarea Input Cursor Visibility
+
+**Issue**: In the textarea input field, the cursor's starting position is hidden, which can confuse users as they may not realize where they should begin typing.
+
+**Suggested Solution**: Enhance the user experience by making the cursor visible at the beginning of the textarea input. So far, I haven’t find a solution with CSS, this can be fixed with JavaScript as well.
 
 ## Codeanywhere Reminders
 
