@@ -59,11 +59,18 @@
 
     <!-- Main Content -->
     <main>
-      <section id="hero-banner-book"></section>
-      <section id="signup">
-        <form id="signup-form" method="Post" action="">
-          <h2>Let's get you in Burundi!</h2>
-          <label for="fisrtname">First Name </label>
+      <section id="hero-banner-book">
+        <h2 class="hide">Hero Banner</h2>
+      </section>
+      <section id="booknow">
+        <h2>Let's get you in Burundi!</h2>
+        <div id="booknow-header">
+          <h3>Booking Form</h3>
+          <p>Fields marked with an <span>*</span> are required</p>
+        </div>
+
+        <form id="booknow-form" method="Post" action="">
+          <label for="fisrtname">First Name <span>*</span></label>
           <input
             type="text"
             name="fisrtname"
@@ -71,7 +78,7 @@
             class="text-input"
             required
           /><br />
-          <label for="lastname">Last Name </label>
+          <label for="lastname">Last Name <span>*</span></label>
           <input
             type="text"
             name="lastname"
@@ -79,7 +86,7 @@
             class="text-input"
             required
           /><br />
-          <label for="email"> Email Address</label>
+          <label for="email"> Email Address <span>*</span></label>
           <input
             type="email"
             name="email"
@@ -119,11 +126,7 @@
               />
             </div>
           </div>
-          <input
-            type="submit"
-            value="Send booking request"
-            class="join-button"
-          />
+          <input type="submit" value="Send booking request" class="btn" />
         </form>
       </section>
     </main>

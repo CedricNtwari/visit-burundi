@@ -26,6 +26,7 @@
     --custom-footer-p: #888888;
     --custom-main-about-bg: #ffffff;
     --custom-paragraph-color: #777;
+    --custom-booknow-form-required-color: #ff0000;
 }
 
 /* General Styles */
@@ -116,10 +117,13 @@ nav {
 .btn {
     background-color: var(--secondary-color);
     border-radius: 2.5rem;
-    height: 3rem;
     line-height: 1.25;
     padding: 1rem 1.5rem;
     white-space: nowrap;
+    border: none;
+    letter-spacing: 3px;
+    color: var(--custom-header-white-color);
+    font-size: 18px;
 }
 
 #navigation li:last-child {
@@ -297,24 +301,39 @@ article {
     position: relative;
 }
 
-#signup {
-    background: url("../images/nature.jpeg");
-    background-size: cover;
-    background-position: 75%;
-    flex-grow: 1;
+#booknow {
+    background-color: var(--custom-header-white-color);
+    padding: 2rem;
 }
 
-#signup h2 {
-    color: #ffffff;
-    padding-bottom: 20px;
+#booknow h2 {
+    color: var(--primary-color);
+    text-align: center;
 }
 
-#signup-form {
-    margin: 20px 10%;
-    color: #dddbdb;
-    padding: 30px;
-    background-color: rgba(60, 60, 60, 0.5);
-    height: 80vh;
+#booknow-header h3 {
+    padding: 2rem 0;
+    color: var(--primary-color);
+}
+
+#booknow-header span,
+#booknow-form span {
+    color: var(--custom-booknow-form-required-color);
+}
+
+#booknow-header p {
+    text-indent: 0;
+    color: var(--custom-paragraph-color);
+    font-size: smaller;
+}
+
+#booknow-form {
+    padding: 1rem 0;
+}
+
+#booknow-form .btn {
+    margin: 2rem 0;
+    cursor: pointer;
 }
 
 .text-input {
@@ -333,14 +352,6 @@ article {
     width: 100%;
 }
 
-.join-button {
-    border-radius: 10px;
-    background-color: var(--custom-btn-hover-color);
-    color: #fafafa;
-    font-size: 100%;
-    padding: 15px 32px;
-    margin-top: 20px;
-}
 
 /* Discover Page */
 
