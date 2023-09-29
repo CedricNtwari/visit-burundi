@@ -329,6 +329,7 @@ article {
 
 #booknow-form {
     padding: 1rem 0;
+    position: relative;
 }
 
 #booknow-form .btn {
@@ -337,19 +338,65 @@ article {
 }
 
 .text-input {
-    background: transparent;
-    border: 1px solid #dddbdb;
-    border-radius: 2px;
+    margin: 0 0 60px 0;
+}
+
+.text-input label {
+    position: relative;
+    top: 10px;
+    left: 0;
+    /* Add a smooth transition effect for label positioning */
+    transition: .5s;
+
+}
+
+/* Make input type placeholder floating on focus */
+.text-input input {
+    position: absolute;
+    background-color: var(--custom-header-white-color);
     width: 100%;
-    height: 25px;
-    padding: 0 5px;
-    margin: 5px 0 20px 0;
+    font-size: inherit;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid var(--custom-paragraph-color);
+    /* Remove default outline on focus */
+    outline: none;
+}
+
+
+/* On focus with cursor input text should move up */
+.text-input input:focus~label,
+.text-input input:valid~label {
+    top: -20px;
+    left: 0;
+    color: var(--custom-paragraph-color);
+    font-size: 12px;
+
 }
 
 .radio-buttons {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    flex-direction: column;
+}
+
+.radio-buttons div {
+    padding: 0.5rem 3rem 0 0;
+}
+
+.radio {
+    display: flex;
+}
+
+.text-message {
+    padding-top: 3rem;
+}
+
+.text-message textarea {
+    width: -webkit-fill-available;
+}
+
+.text-message textarea::placeholder {
+    color: var(--custom-paragraph-color);
 }
 
 
@@ -489,6 +536,16 @@ article {
     #hero-banner-book {
         background: url("../images/bujumbura-pinned-on-a-map-of-afr.webp") no-repeat center/cover;
     }
+
+    /* Book now Page form section */
+    .radio-buttons {
+        flex-direction: row;
+    }
+
+    .radio-buttons div {
+        padding: 0 2rem;
+    }
+
 }
 
 /* Media query: laptop and larger (992px and up) */

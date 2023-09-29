@@ -87,57 +87,41 @@
             <input type="number" name="phone" id="phone" required />
             <label for="phone"> Phone <span>*</span></label>
           </div>
-
-          <div class="date-input">
-            <label for="arrival-date"
-              >Preferred Arrival Date <span>*</span></label
-            >
-            <input type="date" name="arrival-date" id="arrival-date" required />
-          </div>
-          <div class="date-input">
-            <label for="departure-date"
-              >Preferred Departure Date <span>*</span></label
-            >
-            <input
-              type="date"
-              name="departure-date"
-              id="departure-date"
-              required
-            />
-          </div>
           <div class="radio-buttons">
-            <p>Have you been to Burundi before ?</p>
-            <div>
-              <label for="yes">Yes </label>
-              <input
-                type="radio"
-                name="been_to_Burundi"
-                id="yes"
-                value="yes"
-                required
-              />
-            </div>
-            <div>
-              <label for="no">No </label>
-              <input
-                type="radio"
-                name="running_preference"
-                id="no"
-                value="no"
-                required
-              />
+            <label>Have you been to Burundi before ?</label>
+            <div class="radio">
+              <div>
+                <label for="yes">Yes </label>
+                <input
+                  type="radio"
+                  name="been_to_Burundi"
+                  id="yes"
+                  value="yes"
+                  required
+                />
+              </div>
+              <div>
+                <label for="no">No </label>
+                <input
+                  type="radio"
+                  name="been_to_Burundi"
+                  id="no"
+                  value="no"
+                  required
+                />
+              </div>
             </div>
           </div>
-          <div class="text-input">
-            <label for="message">Message </label>
+          <div class="text-message">
+            <label for="message"></label>
             <textarea
               id="message"
               name="message"
-              rows="5"
+              rows="6"
               cols="50"
-              placeholder="
-        Special requests/questions (e.g. group size, dates, activities)"
-            ></textarea>
+              placeholder="Special requests/questions (e.g. group size, dates, activities)"
+            >
+            </textarea>
           </div>
           <input type="submit" value="Send booking request" class="btn" />
         </form>
