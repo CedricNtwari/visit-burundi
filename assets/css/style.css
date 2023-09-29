@@ -284,6 +284,10 @@ article {
     color: var(--custom-paragraph-color);
 }
 
+#google-map {
+    overflow: auto;
+}
+
 /* Book now Page */
 #signup {
     background: url("../images/nature.jpeg");
@@ -438,6 +442,12 @@ article {
         border-right: 1px dashed var(--custom-header-white-color);
         border-bottom: none;
         padding: 0 1rem;
+    }
+
+    /* About Page */
+
+    article {
+        padding: 2rem 20%;
     }
 
     /* Discover page */
