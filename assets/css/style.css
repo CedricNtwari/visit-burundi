@@ -525,15 +525,6 @@ article {
         padding: 2rem 30%;
     }
 
-    /* Book now Page form section */
-    .radio-buttons {
-        flex-direction: row;
-    }
-
-    .radio-buttons div {
-        padding: 0 2rem;
-    }
-
 }
 
 /* Media query: laptop and larger (992px and up) */
@@ -559,6 +550,16 @@ article {
 
     #social-network li {
         padding: 0 1.5rem;
+    }
+
+    /* Book now Page form section */
+    .radio-buttons {
+        flex-direction: row;
+    }
+
+    .radio-buttons div {
+        padding: 0;
+        padding-left: 1rem;
     }
 }
 
