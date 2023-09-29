@@ -289,6 +289,14 @@ article {
 }
 
 /* Book now Page */
+
+#hero-banner-book {
+    height: 600px;
+    width: 100%;
+    background: url("../images/bujumbura-pinned-on-a-map-of-afr.webp") no-repeat center center/cover;
+    position: relative;
+}
+
 #signup {
     background: url("../images/nature.jpeg");
     background-size: cover;
@@ -477,6 +485,12 @@ article {
     /* Gallery Page */
     #photos {
         column-count: 3;
+    }
+
+    /* Book now Page */
+
+    #hero-banner-book {
+        background: url("../images/bujumbura-pinned-on-a-map-of-afr.webp") no-repeat center/cover;
     }
 }
 
