@@ -57,7 +57,7 @@ This project is hosted hosting platform on GitHub.
   - Used for: Main brand identity and key elements like headings and links.
 - secondary-color: #93794f
   - Used for: Complementary color to the primary color,
-    often for buttons and accents
+    buttons and accents
 - tertiary-color: #777
   - Used for: Default text color for paragraphs and body content
 
