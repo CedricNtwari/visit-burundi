@@ -232,8 +232,7 @@ main {
 }
 
 /* Experience Burundi Section */
-
-#experience-burundi {
+/burundi-boutique-blue-bay-resort.webp #experience-burundi {
     padding: 1rem;
 }
 
@@ -243,9 +242,22 @@ main {
     margin: 3rem 0 1rem 0;
 }
 
-#activity-burundi-photo {
+#activity-burundi-karera,
+#activity-burundi-german,
+#activity-burundi-tanganyika {
     height: 300px;
+}
+
+#activity-burundi-karera {
     background: url("../images/karera-main-falls-720x480.webp") no-repeat center center/cover;
+}
+
+#activity-burundi-german {
+    background: url("../images/germans-gorge-burundi.webp") no-repeat center center/cover;
+}
+
+#activity-burundi-tanganyika {
+    background: url("../images/tanganyika.webp") no-repeat center center/cover;
 }
 
 #activity-burundi-container h3 {
@@ -551,7 +563,7 @@ article {
     }
 
     .activity-burundi {
-
+        width: fit-content;
         padding: 1rem;
     }
 
