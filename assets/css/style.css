@@ -363,7 +363,7 @@ article {
 #hero-banner-book {
     height: 600px;
     width: 100%;
-    background: url("../images/bujumbura-pinned-on-a-map-of-afr.webp") no-repeat center center/cover;
+    background: url("../images/lake-Tanganyika-burundi.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -580,7 +580,7 @@ article {
     /* Book now Page */
 
     #hero-banner-book {
-        background: url("../images/bujumbura-pinned-on-a-map-of-afr.webp") no-repeat center/cover;
+        background: url("../images/lake-Tanganyika-burundi.webp") no-repeat center/cover;
     }
 
     #booknow {
