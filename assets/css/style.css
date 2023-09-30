@@ -232,7 +232,12 @@ main {
     color: var(--custom-header-white-color);
 }
 
-/* Experience Burundi section */
+/* Experience Burundi Section */
+
+#experience-burundi {
+    padding: 1rem;
+}
+
 #experience-burundi h2 {
     color: var(--primary-color);
     text-align: center;
@@ -240,8 +245,7 @@ main {
 }
 
 #activity-burundi-photo {
-    height: 400px;
-    width: 400px;
+    height: 300px;
     background: url("../images/karera-main-falls-720x480.webp") no-repeat center center/cover;
 }
 
@@ -249,8 +253,23 @@ main {
     color: var(--primary-color);
 }
 
+.activity-burundi {
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.activity-burundi .box {
+    padding: 1.5rem 0;
+}
+
+.activity-burundi span {
+    color: var(--custom-paragraph-color);
+    padding: 1rem;
+    line-height: 28px;
+}
+
 .activity-burundi a {
-    display: block;
+    text-decoration: none;
 }
 
 /* Footer */
@@ -324,7 +343,7 @@ article {
 }
 
 #photos {
-    /* remove small space between images */
+    /* Remove small space between images */
     line-height: 0;
 }
 
@@ -515,7 +534,7 @@ article {
         flex: 1;
     }
 
-    /* Facts section */
+    /* Facts Section */
     #facts-infos {
         display: flex;
     }
@@ -526,13 +545,24 @@ article {
         padding: 0 1rem;
     }
 
+    /* Experience Burundi section */
+
+    #activity-burundi-container {
+        display: flex;
+    }
+
+    .activity-burundi {
+
+        padding: 1rem;
+    }
+
     /* About Page */
 
     article {
         padding: 2rem 20%;
     }
 
-    /* Discover page */
+    /* Discover Page */
     #photos {
         column-count: 3;
     }
