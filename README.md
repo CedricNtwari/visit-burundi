@@ -72,13 +72,19 @@ This project is hosted hosting platform on GitHub.
 
 ### Suggested Improvements
 
-#### 1. Phone Input Validation
+#### 1. Enhance the "Experience Burundi" Section (Homepage)
+
+**Issue**: The "Experience Burundi" section on the homepage offers a glimpse into the beauty of Burundi. However, to provide users with a more comprehensive experience, it would be beneficial to expand this section to include additional content such as hotels, restaurants, and tourist attractions. Implementing these additions would require the incorporation of JavaScript to dynamically load and display this information.
+
+**Suggested Solution**: Integrate JavaScript to fetch and display data about hotels, restaurants, and popular tourist destinations in Burundi. This would not only enrich the user experience but also offer valuable information to potential visitors.
+
+#### 2. Book now Form: Phone Input Validation (Book Now Page)
 
 **Issue**: Currently, on the Book Now page, the phone input field lacks validation for user phone numbers. Adding a pattern validation can enhance user experience and ensure that users provide valid phone numbers.
 
 **Suggested Solution**: Implement JavaScript to validate the phone number input field against a pattern (e.g., a specific phone number format).
 
-#### 2. Textarea Input Cursor Visibility
+#### 3. Book now Form: Textarea Input Cursor Visibility (Book Now Page)
 
 **Issue**: In the textarea input field, the cursor's starting position is hidden, which can confuse users as they may not realize where they should begin typing.
 
