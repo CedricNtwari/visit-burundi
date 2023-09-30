@@ -13,18 +13,21 @@ Visit Burundi has been designed with a mobile-first approach in mind. This means
 
 ## Features
 
-- **Navigation Bar** : ...
+- **Navigation Bar** : A user-friendly navigation bar simplifies exploration, allowing visitors to seamlessly navigate pages of the platform.
 
-- **Landing Page**: ...
+- **Landing Page**: The inviting landing page offers a captivating glimpse into the splendor of Burundi, inviting visitors to delve deeper into its wonders.
 
-- **About Section**: ...
+- **About Section**: An informative and engaging "About Burundi" section.
 
-- **Where to stay Section**: ...
+- **Facts Section**: Unearth intriguing facts and trivia about Burundi's location, travel, and weather, enriching your understanding of this remarkable region.
+- **Experience Burundi Section**: Discover additional facets of Burundi, such as tourist attractions.
 
-- **Footer**: ...
+- **Footer**: The footer serves as a convenient hub, offering social media links.
 
-- **Gallery**: ...
-- **Book now Page**: ...
+- **About**: An article of Burundi history and geography borders and more.
+
+- **Discover**: A gallery page with pictures that Offers visual insights.
+- **Book now Page**: Where you can book and get in touch with the agency
 
 ## Validator Testing
 
@@ -39,7 +42,7 @@ Visit Burundi has been designed with a mobile-first approach in mind. This means
 This project is hosted hosting platform on GitHub.
 
 - The site is deployed to GitHub pages.
-- The live link can be found here: <...>.  
+- The live link can be found here: <https://cedricntwari.github.io/visit-burundi/>.
 
 ## Content
 
