@@ -39,7 +39,7 @@ Visit Burundi has been designed with a mobile-first approach in mind. This means
 This project is hosted hosting platform on GitHub.
 
 - The site is deployed to GitHub pages.
-- The live link can be found here: <...>
+- The live link can be found here: <...>.  
 
 ## Content
 
