@@ -367,6 +367,8 @@ article {
 #booknow {
     background-color: var(--custom-header-white-color);
     padding: 2rem;
+    position: relative;
+    top: 30px;
 }
 
 #booknow h2 {
@@ -398,6 +400,7 @@ article {
 #booknow-form .btn {
     margin: 2rem 0;
     cursor: pointer;
+    white-space: normal;
 }
 
 .text-input {
