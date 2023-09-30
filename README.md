@@ -55,7 +55,7 @@ This project is hosted hosting platform on GitHub.
 - secondary-color: #93794f
   - Used for: Complementary color to the primary color,
     often for buttons and accents
-- text-color: #0f324e
+- tertiary-color: #777
   - Used for: Default text color for paragraphs and body content
 
 ## Key topics covered here

@@ -18,14 +18,13 @@
     --secondary-color: #93794f;
 
     /* Used for: Default text color for paragraphs and body content. */
-    --text-color: #0f324e;
+    --tertiary-color: #777;
 
-    --custom-nav-footer-bg-color: #000;
+    --custom-nav-footer-bg-color: #0f324e;
     --custom-header-white-color: #f6f6f6;
     --custom-btn-hover-color: #93794fbf;
     --custom-footer-p: #888888;
     --custom-main-about-bg: #ffffff;
-    --custom-paragraph-color: #777;
     --custom-booknow-form-required-color: #ff0000;
 }
 
@@ -36,7 +35,7 @@ body {
     flex-direction: column;
     font-family: "Lato", sans-serif;
     /* Generic project styles */
-    color: var(--text-color);
+    color: var(--custom-nav-footer-bg-color);
 }
 
 h1,
@@ -192,13 +191,13 @@ main {
 
 #burundi-nature p,
 #experience-burundi p {
-    color: var(--custom-paragraph-color);
+    color: var(--tertiary-color);
     padding: 1rem;
 }
 
 /* Facts Section */
 #facts {
-    background-color: var(--text-color);
+    background-color: var(--custom-nav-footer-bg-color);
     color: var(--custom-header-white-color);
 }
 
@@ -263,7 +262,7 @@ main {
 }
 
 .activity-burundi span {
-    color: var(--custom-paragraph-color);
+    color: var(--tertiary-color);
     padding: 1rem;
     line-height: 28px;
 }
@@ -327,7 +326,7 @@ article {
 
 #about-nation p {
     padding-bottom: 2rem;
-    color: var(--custom-paragraph-color);
+    color: var(--tertiary-color);
 }
 
 #google-map {
@@ -378,7 +377,7 @@ article {
 
 #booknow-header p {
     text-indent: 0;
-    color: var(--custom-paragraph-color);
+    color: var(--tertiary-color);
     font-size: smaller;
 }
 
@@ -413,7 +412,7 @@ article {
     font-size: inherit;
     height: 2rem;
     border: none;
-    border-bottom: 1px solid var(--custom-paragraph-color);
+    border-bottom: 1px solid var(--tertiary-color);
     /* Remove default outline on focus */
     outline: none;
 }
@@ -424,7 +423,7 @@ article {
 .text-input input:valid~label {
     top: -20px;
     left: 0;
-    color: var(--custom-paragraph-color);
+    color: var(--tertiary-color);
     font-size: 12px;
 
 }
@@ -451,7 +450,7 @@ article {
 }
 
 .text-message textarea::placeholder {
-    color: var(--custom-paragraph-color);
+    color: var(--tertiary-color);
     padding: 1rem;
 }
 
