@@ -81,17 +81,11 @@ This project is hosted hosting platform on GitHub.
 
 **Suggested Solution**: Integrate JavaScript to fetch and display data about hotels, restaurants, and popular tourist destinations in Burundi. This would not only enrich the user experience but also offer valuable information to potential visitors.
 
-#### 2. Book now Form: Phone Input Validation (Book Now Page)
+#### 2. Book now Form: Input Validation (Book Now Page)
 
-**Issue**: Currently, on the Book Now page, the phone input field lacks validation for user phone numbers. Adding a pattern validation can enhance user experience and ensure that users provide valid phone numbers.
+**Issue**: Currently, on the Book Now page, the inputs field lacks validation. For example, Adding a pattern validation can enhance user experience and ensure that users provide valid phone numbers.
 
-**Suggested Solution**: Implement JavaScript to validate the phone number input field against a pattern (e.g., a specific phone number format).
-
-#### 3. Book now Form: Textarea Input Cursor Visibility (Book Now Page)
-
-**Issue**: In the textarea input field, the cursor's starting position is hidden, which can confuse users as they may not realize where they should begin typing.
-
-**Suggested Solution**: Enhance the user experience by making the cursor visible at the beginning of the textarea input. So far, I haven’t find a solution with CSS, this can be fixed with JavaScript as well.
+**Suggested Solution**: Use JavaScript to validate the inputs field.
 
 ## Codeanywhere Reminders
 
