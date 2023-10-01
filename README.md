@@ -39,15 +39,15 @@ Visit Burundi has been designed with a mobile-first approach in mind. This means
 ![Experience Burundi Section](assets/images/screenshot-experience-burundi.png)
 
 - **Footer**:
-- The footer serves as a convenient hub, offering social media links.
+  - The footer serves as a convenient hub, offering social media links.
 
 ![Footer](assets/images/screenshot-footer.png)
 
 - **About Page**:
   - An article of Burundi history and geography borders and more.
-  - Plus a Google map of Burundi for users to discover more about the country.
+  - Plus a Google map of Burundi for users to discover more about the country?s location.
 
-![About PAge](assets/images/screenshot-about-page.png)
+![About Page](assets/images/screenshot-about-page.png)
 
 - **Discover Page**:
   - A gallery page with pictures that Offers visual insights.
