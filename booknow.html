@@ -68,8 +68,8 @@
           <h3>Booking Form</h3>
           <p>Fields marked with an <span>*</span> are required</p>
         </div>
-
-        <form id="booknow-form" method="Post" action="">
+        <!--TODO:replace action="/submit" by an appropriate action URL for the form-->
+        <form id="booknow-form" method="Post" action="/submit">
           <div class="text-input">
             <input type="text" name="fisrtname" id="fisrtname" required >
             <label for="fisrtname">First Name <span>*</span></label>
@@ -122,7 +122,7 @@
               placeholder="Add any special requests/questions (e.g. group size, dates, activities)"
             ></textarea>
           </div>
-          <input type="submit" value="Send booking request" class="btn" />
+          <input type="submit" value="Send booking request" class="btn" >
         </form>
       </section>
     </main>
