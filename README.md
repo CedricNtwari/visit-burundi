@@ -2,6 +2,10 @@
 
 Visit Burundi is a captivating platform that showcases the region's renowned natural beauty, featuring stunning national parks and nature reserves that beckon tourists to explore its breathtaking landscapes.
 
+Users of this website will be able to find all the information they need to plan their trips to Burundi and Explore the wonders of Burundi with us!
+
+![Visit Burundi](assets/images/screenshot-website.png)
+
 ## Built with a Mobile-First Approach
 
 Visit Burundi has been designed with a mobile-first approach in mind. This means that the project is initially optimized for mobile devices, ensuring a seamless and engaging experience for visitors on smartphones and tablets. As the project evolves, it will be progressively enhanced to cater to larger screens while retaining its core mobile-friendly design.
@@ -13,21 +17,47 @@ Visit Burundi has been designed with a mobile-first approach in mind. This means
 
 ## Features
 
-- **Navigation Bar** : A user-friendly navigation bar simplifies exploration, allowing visitors to seamlessly navigate pages of the platform.
+- **Navigation Bar** :
+  - A user-friendly navigation bar simplifies exploration, allowing visitors to seamlessly navigate pages of the platform. The nvigation shows the agency name and other navigation links to the right
 
-- **Landing Page**: The inviting landing page offers a captivating glimpse into the splendor of Burundi, inviting visitors to delve deeper into its wonders.
+![Navigation Bar](assets/images/screenshot-navigation.png)
 
-- **About Section**: An informative and engaging "About Burundi" section.
+- **About Section**:
+  - An informative and engaging "About Burundi" section.
+  - It shows the Burundi map with a nice intro about the country.
 
-- **Facts Section**: Unearth intriguing facts and trivia about Burundi's location, travel, and weather, enriching your understanding of this remarkable region.
-- **Experience Burundi Section**: Discover additional facets of Burundi, such as tourist attractions.
+![About Section](assets/images/screenshot-about.png)
 
-- **Footer**: The footer serves as a convenient hub, offering social media links.
+- **Facts Section**:
+  - Unearth intriguing facts and trivia about Burundi's location, travel, and weather, enriching your understanding of this remarkable region.
 
-- **About**: An article of Burundi history and geography borders and more.
+![Facts Section](assets/images/screenshot-facts.png)
 
-- **Discover**: A gallery page with pictures that Offers visual insights.
-- **Book now Page**: Where you can book and get in touch with the agency
+- **Experience Burundi Section**:
+  - Discover additional facets of Burundi, such as tourist attractions.
+
+![Experience Burundi Section](assets/images/screenshot-experience-burundi.png)
+
+- **Footer**:
+- The footer serves as a convenient hub, offering social media links.
+
+![Footer](assets/images/screenshot-footer.png)
+
+- **About Page**:
+  - An article of Burundi history and geography borders and more.
+  - Plus a Google map of Burundi for users to discover more about the country.
+
+![About PAge](assets/images/screenshot-about-page.png)
+
+- **Discover Page**:
+  - A gallery page with pictures that Offers visual insights.
+
+![Discover Page](assets/images/screenshot-discover.png)
+
+- **Book now Page**:
+  - Where you can book and get in touch with the agency
+
+![Book now Page](assets/images/screenshot-book-now.png)
 
 ## Validator Testing
 
@@ -35,6 +65,16 @@ Visit Burundi has been designed with a mobile-first approach in mind. This means
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- Accessibility:
+
+  ![accessibility](assets/images/screenshot-accessibility.png)
+
+## Testing
+
+- Tested in different browser : Chrome, Firefox, Safari.
+- This website is responsive and functions on all screen sizes using devtools device toolbar.
+- All features works good, readable and easy to understand.
+- Book now form misses a submit URL.
 
 ## Deployment
 
@@ -43,10 +83,13 @@ This project is hosted hosting platform on GitHub.
 - The site is deployed to GitHub pages.
 - The live link can be found here: <https://cedricntwari.github.io/visit-burundi/>.
 
-## Content
+## Credits
 
 - I used this website (<https://favicon.io/>) to generate the browser tab icon, for learning purposes.
 - I used Google Fonts (<https://fonts.google.com/?query=la>) to get Lazio fonts to style this website.
+
+## Media
+
 - Image sourced from <https://gisgeography.com/> for educational purposes. Usage allowed by the website's terms of use <https://gisgeography.com/how-to-cite/> <https://gisgeography.com/burundi-map/>
 - Images from Pikwizard <https://pikwizard.com/s/photo/burundi>, freely available for educational purposes.
 
