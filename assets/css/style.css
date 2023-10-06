@@ -51,6 +51,7 @@ p {
     line-height: 28px;
     /* indent the first line */
     text-indent: 1em;
+    text-align: left;
 }
 
 .hide {
@@ -232,6 +233,11 @@ main {
 }
 
 /* Experience Burundi Section */
+
+#experience-burundi {
+    padding: 1rem;
+}
+
 .webp #experience-burundi {
     padding: 1rem;
 }
@@ -239,7 +245,7 @@ main {
 #experience-burundi h2 {
     color: var(--primary-color);
     text-align: center;
-    margin: 3rem 0 1rem 0;
+    margin: 2rem 0 1rem 0;
 }
 
 #activity-burundi-karera,
@@ -271,11 +277,12 @@ main {
 
 .activity-burundi .box {
     padding: 1.5rem 0;
+    line-height: 28px;
+    letter-spacing: 1px;
 }
 
 .activity-burundi span {
     color: var(--tertiary-color);
-    padding: 1rem;
     line-height: 28px;
 }
 
