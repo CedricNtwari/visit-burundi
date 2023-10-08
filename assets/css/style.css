@@ -361,8 +361,8 @@ article {
 }
 
 #photos {
-    /* Remove small space between images */
-    line-height: 0;
+    /* Add row space between images */
+    line-height: 2;
 }
 
 /* Book now Page */
@@ -480,7 +480,6 @@ article {
     /* Discover Page */
     #photos {
         column-count: 2;
-        column-gap: 0;
     }
 }
 
@@ -522,7 +521,7 @@ article {
 
     /* Main Content */
     main {
-        margin-top: 100px;
+        margin-top: 109px;
     }
 
     /* Hero banner Section */
