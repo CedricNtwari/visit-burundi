@@ -473,6 +473,31 @@ article {
     padding: 1rem;
 }
 
+/* Thank You Page */
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 1rem;
+}
+
+#container h1, #container p{
+    text-align: center;
+    font-size: 24px;
+    padding: 1rem 0;
+}
+
+#container h1{
+    color: var(--primary-color);
+}
+
+#container a{
+    text-decoration: none;
+    margin: 1rem 0;
+}
 
 /* Media query: large and landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
