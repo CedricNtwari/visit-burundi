@@ -69,7 +69,7 @@
           <p>Fields marked with an <span>*</span> are required</p>
         </div>
         <!--TODO:add action="/submit" by an appropriate action URL for the form-->
-        <form id="booknow-form" action="/thankyou.html">
+        <form id="booknow-form" action="/" onsubmit="alert('Thank you for your submission. We have received your request.');setTimeout(function(){window.location.reload();},10);">
           <div class="text-input">
             <input type="text" name="fisrtname" id="fisrtname" required >
             <label for="fisrtname">First Name <span>*</span></label>
