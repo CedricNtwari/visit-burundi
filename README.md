@@ -15,47 +15,86 @@ Visit Burundi has been designed with a mobile-first approach in mind. This means
 - HTML
 - CSS
 
+## Table of Contents
+
+1. [Features](#features)
+2. [Validator Testing](#validator-testing)
+3. [Testing](#testing)
+4. [Deployment](#deployment)
+5. [Credits](#credits)
+6. [Media](#media)
+7. [Main Colors Used](#main-colors-used)
+8. [Key topics covered here](#key-topics-covered-here)
+   1. [Enhance the "Experience Burundi" Section (Homepage)](#1-enhance-the-experience-burundi-section-homepage)
+   2. [Book now Form: Input Validation (Book Now Page)](#2-book-now-form-input-validation-book-now-page)
+9. [Codeanywhere Reminders](#codeanywhere-reminders)
+
 ## Features
 
-- **Navigation Bar** :
-  - A user-friendly navigation bar simplifies exploration, allowing visitors to seamlessly navigate pages of the platform. The nvigation shows the agency name and other navigation links to the right
+### Navigation Bar
+
+**User Perspective**: The navigation bar provides easy access to various sections of the website, making it effortless for users to explore and find relevant information about Burundi. It ensures a smooth and intuitive browsing experience.
+
+**Business Goals Perspective**: The navigation bar also serves as a strategic tool for guiding users towards key conversion points, such as booking inquiry. It helps in channeling user actions towards revenue-generating activities.
+
 
 ![Navigation Bar](assets/images/screenshot-navigation.png)
 
-- **About Section**:
-  - An informative and engaging "About Burundi" section.
-  - It shows the Burundi map with a nice intro about the country.
+### About Section
+
+**User Perspective**: The "About Burundi" section serves as an introduction to the beauty and culture of Burundi. Users can gain insights into the country's geography, helping them connect with the destination before planning their trip.
+
+**Business Goals Perspective**: Providing comprehensive information about Burundi not only enhances user engagement but also establishes the website as a reliable source of travel knowledge. This can lead to increased trust and credibility, driving more traffic and potential customers.
 
 ![About Section](assets/images/screenshot-about.png)
 
-- **Facts Section**:
-  - Unearth intriguing facts and trivia about Burundi's location, travel, and weather, enriching your understanding of this remarkable region.
+### Facts Section
+
+**User Perspective**: Discover interesting facts and trivia about Burundi's unique location, travel options, and weather conditions. This section empowers users with valuable information to plan their visit with confidence.
+
+**Business Goals Perspective**: By offering practical travel-related information, the website aims to assist users in their decision-making process. In doing so, it increases the likelihood of users considering Burundi as their travel destination, ultimately driving tourism revenue.
+
+
 
 ![Facts Section](assets/images/screenshot-facts.png)
 
-- **Experience Burundi Section**:
-  - Discover additional facets of Burundi, such as tourist attractions.
+### Experience Burundi Section
+
+**User Perspective**: Explore the diverse facets of Burundi through this immersive section. From tourist attractions to local experiences, users can envision the adventures that await them in this captivating destination.
+
+**Business Goals Perspective**: Highlighting the unique experiences available in Burundi aims to attract potential tourists and generate interest in travel packages or guided tours offered by the agency. It contributes to revenue growth by converting interest into bookings.
 
 ![Experience Burundi Section](assets/images/screenshot-experience-burundi.png)
 
-- **Footer**:
-  - The footer serves as a convenient hub, offering social media links.
+### Footer
+
+**User Perspective**: The footer serves as a convenient hub for users to connect with the website's social media profiles. It offers quick access to additional resources and updates related to Burundi travel.
+
+**Business Goals Perspective**: The footer provides valuable real estate for promoting the agency's social media presence. By encouraging users to follow and engage with the brand on social platforms, the website can expand its online reach and build a loyal community.
 
 ![Footer](assets/images/screenshot-footer.png)
 
-- **About Page**:
-  - An article of Burundi history and geography borders and more.
-  - Plus a Google map of Burundi for users to discover more about the country?s location.
+### About Page
+
+**User Perspective**: Dive deeper into Burundi's history, geography, and borders through a detailed article. The inclusion of a Google map allows users to explore the country's location, enhancing their understanding and curiosity.
+
+**Business Goals Perspective**: The informative "About Page" positions the website as an authoritative source of information on Burundi. This can attract organic traffic from users seeking detailed insights, ultimately benefiting the website's visibility and authority.
 
 ![About Page](assets/images/screenshot-about-page.png)
 
-- **Discover Page**:
-  - A gallery page with pictures that Offers visual insights.
+### Discover Page
+
+**User Perspective**: Immerse yourself in the visual splendor of Burundi through a gallery of stunning images. These visuals provide a sneak peek into the picturesque landscapes and attractions, igniting users' wanderlust.
+
+**Business Goals Perspective**: The visual appeal of the "Discover Page" aims to inspire users and create a desire to explore Burundi in person. This can lead to an increased influx of tourists, benefiting the local tourism industry and the agency's revenue.
 
 ![Discover Page](assets/images/screenshot-discover.png)
 
-- **Book now Page**:
-  - Where you can book and get in touch with the agency
+### Book now Page
+
+**User Perspective**: The "Book now" page simplifies the booking process and enables users to get in touch with the agency effortlessly. It streamlines travel planning, making it convenient and user-friendly.
+
+**Business Goals Perspective**: The "Book now" page is a critical conversion point. By providing a seamless booking experience, the website encourages users to take action, resulting in potential revenue through bookings and inquiries.
 
 ![Book now Page](assets/images/screenshot-book-now.png)
 
