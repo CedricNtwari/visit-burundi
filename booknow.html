@@ -68,12 +68,8 @@
           <h3>Booking Form</h3>
           <p>Fields marked with an <span>*</span> are required</p>
         </div>
-        <!--TODO:replace action="/submit" by an appropriate action URL for the form-->
-        <!-- 
-          The onsubmit attribute triggers a JavaScript alert to thank the user for submission
-          and reloads the page after a 10-millisecond delay.
-        -->
-        <form id="booknow-form" action="" onsubmit="alert('Thank you for your submission. We have received your request.');setTimeout(function(){window.location.reload();},10);">
+        <!--TODO:add action="/submit" by an appropriate action URL for the form-->
+        <form id="booknow-form" action="/thankyou.html">
           <div class="text-input">
             <input type="text" name="fisrtname" id="fisrtname" required >
             <label for="fisrtname">First Name <span>*</span></label>
