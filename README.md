@@ -17,17 +17,46 @@ Visit Burundi has been designed with a mobile-first approach in mind. This means
 
 ## Table of Contents
 
-1. [Features](#features)
-2. [Validator Testing](#validator-testing)
-3. [Testing](#testing)
-4. [Deployment](#deployment)
-5. [Credits](#credits)
-6. [Media](#media)
-7. [Main Colors Used](#main-colors-used)
-8. [Key topics covered here](#key-topics-covered-here)
+1. [User Experience Stories](#user-experience-stories)
+2. [Features](#features)
+3. [Validator Testing](#validator-testing)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+7. [Media](#media)
+8. [Main Colors Used](#main-colors-used)
+9. [Key topics covered here](#key-topics-covered-here)
    1. [Enhance the "Experience Burundi" Section (Homepage)](#1-enhance-the-experience-burundi-section-homepage)
    2. [Book now Form: Input Validation (Book Now Page)](#2-book-now-form-input-validation-book-now-page)
-9. [Codeanywhere Reminders](#codeanywhere-reminders)
+
+
+## User Experience Stories
+
+### New Customer
+- As a new customer, I want to easily navigate the website to find information about Burundi.
+- I want to explore the beauty of Burundi through captivating images and informative content.
+- I expect to discover intriguing facts about Burundi's location, travel options, and weather conditions.
+- I want to learn about unique tourist attractions and experiences available in Burundi.
+- I need to be able to contact the agency effortlessly and make bookings or inquiries.
+- A seamless and user-friendly booking process is important to me.
+
+### Returning Customer
+- As a returning customer, I want to stay updated on any new features or content added to the website.
+- I expect the website to maintain its mobile-friendly design for a consistent experience.
+- I want the website to continue providing valuable travel information about Burundi.
+- Access to a gallery of stunning images should remain available to fuel my wanderlust.
+- I hope to see any improvements in the booking process to make it even smoother.
+
+### Business Owner Stories
+- As a business owner, I aim to provide users with an intuitive and engaging website navigation experience.
+- I want to showcase the beauty and culture of Burundi to attract potential tourists.
+- Offering comprehensive information about Burundi is essential to establish our website's credibility.
+- Highlighting unique experiences and attractions should drive interest in our travel packages.
+- The footer should encourage users to connect with us on social media, expanding our online presence.
+- The "About Page" positions our website as an authoritative source of information on Burundi, benefiting our visibility.
+- The "Discover Page" aims to inspire users and drive tourism revenue by showcasing the visual splendor of Burundi.
+- The "Book Now" page is crucial for conversion and revenue generation, and it should offer a seamless experience.
+
 
 ## Features
 
