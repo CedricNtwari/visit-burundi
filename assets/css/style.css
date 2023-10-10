@@ -254,6 +254,17 @@ main {
     height: 300px;
 }
 
+/* Scale Background Images on Hover */
+#activity-burundi-karera:hover,
+#activity-burundi-karera:focus,
+#activity-burundi-german:hover,
+#activity-burundi-german:focus,
+#activity-burundi-tanganyika:hover,
+#activity-burundi-tanganyika:focus {
+    transform: scale(1.02);
+    transition: all .3s;
+}
+
 #activity-burundi-karera {
     background: url("../images/karera-main-falls-720x480.webp") no-repeat center center/cover;
 }
